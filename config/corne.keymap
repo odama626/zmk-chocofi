@@ -43,14 +43,14 @@
      nav_layer {
       bindings = <
         &trans  &trans  &trans  &trans  &trans  &trans     &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-        &trans  &trans  &trans  &trans  &trans  &trans     &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
+        &kp BACKSPACE  &trans  &trans  &trans  &trans  &trans     &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
         &trans  &trans  &trans  &trans  &trans  &trans     &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN  &kp GREATER_THAN  &trans
                                 &trans  &trans  &trans     &trans  &trans  &trans
       >;
      };
      sym_layer {
         bindings = <
-        &trans  &trans  &trans  &kp ASTERISK  &kp AMPERSAND  &trans          &kp EQUAL  &trans  &trans  &trans  &trans  &trans
+        &trans  &kp MINUS  &kp EQUAL  &kp ASTERISK  &kp AMPERSAND  &trans          &trans  &trans  &trans  &trans  &trans  &trans
         &trans &kp SINGLE_QUOTE  &kp CARET  &kp PERCENT  &kp DOLLAR  &kp PLUS          &trans  &trans  &trans  &trans  &trans  &trans
         &trans &kp TILDE  &kp HASH  &kp AT  &kp EXCLAMATION  &kp PIPE          &trans  &trans  &trans  &trans  &trans  &trans
                                 &trans  &trans  &trans          &trans  &trans  &trans

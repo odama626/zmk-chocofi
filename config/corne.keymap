@@ -15,6 +15,19 @@
 #define SYS 4
 
 / {
+  combos {
+    compatible = "zmk,combos";
+    combo_esc {
+      timeout-ms = <50>;
+      key-positions = <1 2>;
+      bindings = <&kp ESC>;
+    };
+    combo_esc {
+      timeout-ms = <50>;
+      key-positions = <24 25>;
+      bindings = <&caps_word>;
+    };
+  };
   keymap {
     compatible = "zmk,keymap";
 
@@ -36,7 +49,7 @@
      };
      sym_layer {
         bindings = <
-        &trans  &trans  &trans  &kp ASTERISK  &kp AMPERSAND  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &kp ASTERISK  &kp AMPERSAND  &trans          &kp EQUAL  &trans  &trans  &trans  &trans  &trans
         &trans &kp SINGLE_QUOTE  &kp CARET  &kp PERCENT  &kp DOLLAR  &kp PLUS          &trans  &trans  &trans  &trans  &trans  &trans
         &trans &kp TILDE  &kp HASH  &kp AT  &kp EXCLAMATION  &kp PIPE          &trans  &trans  &trans  &trans  &trans  &trans
                                 &trans  &trans  &trans          &trans  &trans  &trans
@@ -60,7 +73,6 @@
      };
   };
 };
-
 
 
 

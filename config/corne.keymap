@@ -56,7 +56,7 @@
       bindings = <
         &trans  &kp MINUS  &kp EQUAL  &kp ASTERISK  &kp AMPERSAND  &trans          &kp C_SLEEP  &trans  &kp C_PLAY_PAUSE  &kp C_VOL_UP  &kp C_MUTE  &trans
         &trans &kp SINGLE_QUOTE  &kp CARET  &kp PERCENT  &kp DOLLAR  &kp PLUS          &trans  &trans  &trans &kp C_VOL_DN  &trans  &trans
-        &trans &kp GRAVE  &kp HASH  &kp AT  &kp EXCLAMATION  &kp PIPE          &bt BT_CLR  &bt BT_NXT  &bt BT_PRV  &trans &trans  &trans
+        &trans &mt LSHIFT GRAVE  &mt LCTRL HASH  &kp AT  &kp EXCLAMATION  &kp PIPE          &bt BT_CLR  &bt BT_NXT  &bt BT_PRV  &trans &trans  &trans
                                 &trans  &trans  &trans          &trans  &trans  &trans
       >;
     };

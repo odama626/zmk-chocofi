@@ -75,7 +75,7 @@
                                 &trans  &trans  &trans          &trans  &trans  &trans
       >;
      };
-    nav_layer {
+    nav_ext_layer {
       label = "nav ext";
 
       bindings = <

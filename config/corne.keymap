@@ -52,7 +52,7 @@
       bindings = <
         &trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5     &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans &trans
         &trans  &mt LGUI N6 &mt LALT N7 &mt LSHIFT N8 &mt LCTRL N9  &mt LS(LC(LA(LGUI))) N0      &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans  &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN  &kp GREATER_THAN &trans  &trans
+        &trans  &trans  &trans  &trans  &trans  &kp DOT    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN  &kp GREATER_THAN &trans  &trans
                                 &trans  &trans  &trans     &trans  &kp DELETE  &trans
       >;
     };
